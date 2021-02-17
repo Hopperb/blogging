@@ -2,7 +2,7 @@
   "root": true,
   "project": {
     "name": "DeejCariel Blog",
-    "basePath": "/studio"
+    "basePath": "https://deejcarielblog.sanity.studio/"
   },
   "api": {
     "projectId": "bomioxxs",
@@ -29,3 +29,4 @@
     }
   ]
 }
+
