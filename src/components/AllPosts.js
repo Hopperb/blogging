@@ -30,6 +30,7 @@ export default function AllPosts() {
     <div className="bg-black min-h-screen p-12">
       <div className="container mx-auto">
         <img 
+          alt=""
           className="grid md:grid-cols-2 lg:grid-cols-3 gap-8"
           src={signature}>
         </img>
