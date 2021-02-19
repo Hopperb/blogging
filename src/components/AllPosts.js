@@ -31,7 +31,7 @@ export default function AllPosts() {
       <div className="container mx-auto">
         <img 
           alt=""
-          className="grid md:grid-cols-2 lg:grid-cols-3 gap-8"
+          className="ml-20 pl-20"
           src={signature}>
         </img>
         <h3 className="text-lg text-gray-600 flex justify-center mb-12">
@@ -43,7 +43,7 @@ export default function AllPosts() {
               <Link to={"/" + post.slug.current} key={post.slug.current}>
                 <span
                   className="block h-64 relative rounded shadow leading-snug bg-white
-                      border-l-8 border-green-400"
+                      border-l-8 border-white-400"
                   key={index}
                 >
                   <img
@@ -56,7 +56,7 @@ export default function AllPosts() {
                       -4 pb-4"
                   >
                     <h2
-                      className="text-gray-800 text-lg font-bold px-3 py-4 bg-red-700
+                      className="text-gray-800 text-lg font-bold px-3 py-4 bg-black-700
                         text-red-100 bg-opacity-75 rounded"
                     >
                       {post.title}
